@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: #45a049;
+    height: 70px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-bi {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #45a049;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.form-container, .lectura-container {
+    display: none; /* Ocultos por defecto */
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ccffc2;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.lectura-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+input[type="text"], input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 3px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #45a049;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el menú flotante */
+#menu-panel {
+    position: fixed;
+    top: 0;
+    left: -424px;
+    width: 400px;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    transition: left 0.3s ease;
+    box-shadow: 0 8px 16px rgb(129, 129, 129);
+}
+label{
+    background: #45a049;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+    margin-left: 5px;
+
+}
